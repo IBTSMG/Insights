@@ -1,6 +1,8 @@
 # Insights
 Sample Apache Spark jobs to analyze the transactions taking place in a core banking application with SOA
 
+For detailed information about the use cases, refer to the DZone article <a href="https://dzone.com/articles/deep-dive-business-code-analysis-using-hadoop-and">here</a>
+
 Analyzes the service oriented transaction data residing in HDFS. Each line of the input text files are expected to be json serialized, of the form below:
 
 ```json
